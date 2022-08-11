@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: #EEEEEE;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #FFFFDE   ;
+}
+.box{
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#form input,textarea{
+    margin: 20px;
+    width: 80%;
+   
+    border: 1px solid #3F4E4F;
+}
+#form input{
+    border: 1px solid #3F4E4F;
+    height: 30px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: lightcoral;
+}
