@@ -6,6 +6,7 @@
 }
 body {
     padding:  24px;
+    background-color: hsl(32, 96%, 59%);
 
 }
 input, textarea, button {
