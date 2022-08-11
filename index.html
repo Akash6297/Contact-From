@@ -13,18 +13,13 @@
 <body>
 
     <div class="container">
-        <div class="box">
-            <form id="form" onsubmit="SendEmail();reset(); return false;">
-            <form action="https://formsubmit.co/el/confirm/a0d72a33f6803d597b7ece3dcd9ef713" method="POST" />
-                Name : <input type="text" name="name" id="name" placeholder="Enter your name"><br>
-                contact : <input type="number" name="contact" id="contact" placeholder="Enter your contact"><br>
-                Email : <input type="email" name="email" id="email" placeholder="Enter your email"><br>
-                Message:
-                <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter the message"></textarea>
-                <button type="submit" class="btn">Send</button>
-
-            </form>
-        </div>
+        <h1>Contact From</h1>
+        <form action="https://formsubmit.co/el/confirm/a0d72a33f6803d597b7ece3dcd9ef713" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+            </from>
     </div>
 
    
